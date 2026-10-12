@@ -4,18 +4,7 @@
 
 I build software from the first user problem through architecture, implementation, deployment and iteration. My work spans developer tools, AI workflows and SaaS products used by real businesses.
 
-## Public developer tooling
-
-### [Council for Claude Code](https://github.com/JonasR-Git/agent-council-cc)
-
-A Claude Code plugin that coordinates independent reviews from Claude, Codex and Grok, followed by peer critique and consensus.
-
-- Review diffs or inspect a whole project, with structured findings and explicit disagreements.
-- Plan and implement changes with test gates and further council review.
-- Fix/build workflows use isolated branches and leave the final merge to the user.
-- MIT-licensed, with setup instructions, command documentation and tests in the repository.
-
-### [Web Architect AI](https://github.com/JonasR-Git/web-architect-ai)
+## [Web Architect AI](https://github.com/JonasR-Git/web-architect-ai)
 
 An experimental local workbench for turning an existing website into an editable migration blueprint, page and component specifications, and AI-generated design directions. Built with Next.js, TypeScript, Puppeteer and OpenRouter, with locally persisted sessions. Plans and mockups remain drafts for human review.
 
@@ -28,7 +17,7 @@ An experimental local workbench for turning an existing website into an editable
 
 ## My own agentic development workflow
 
-Alongside the public Council plugin, I built a ticket-driven, multi-model development system for my own work, including Hivekraft development. It has completed **350+ tickets**, including around **40 parent tickets**.
+I built a ticket-driven, multi-model development system for my own work, including Hivekraft development. It has completed **350+ tickets**, including around **40 parent tickets**.
 
 The system classifies tasks by difficulty and type, routes work to suitable models and escalates difficult engineering decisions to a council of four independent models from different providers. It covers implementation, generated tests, PR creation and automatic merging after passing tests, CI, TypeScript checks and independent model reviews with no outstanding findings.
 
