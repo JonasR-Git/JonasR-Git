@@ -10,9 +10,11 @@ An experimental local workbench for turning an existing website into an editable
 
 [Explore the interactive project guide](https://jonasr-git.github.io/web-architect-ai/) · [Architecture](https://github.com/JonasR-Git/web-architect-ai/blob/master/docs/ARCHITECTURE.md) · [Reproduce the sample workflow](https://github.com/JonasR-Git/web-architect-ai/blob/master/docs/WORKFLOW_EXAMPLE.md)
 
-## [Agentic Build Kit](https://github.com/JonasR-Git/agentic-build-kit)
+## [Agentic Build Kit — Task & Evidence CLI](https://github.com/JonasR-Git/agentic-build-kit)
 
-A small, provider-neutral control plane for task-driven software delivery: dependency-aware task selection, specification readiness, structured completion evidence and a replayable state journal. The MIT-licensed reference core includes 16 regression tests and two reproducible scenarios showing a completed task and a task blocked by review. It validates delivery records; a coding agent or trusted CI integration supplies the actual implementation and evidence.
+A small MIT-licensed Node.js CLI for dependency-aware task selection, structural specification checks and local state tracking. It validates externally supplied JSON completion reports for tests, static analysis and review. Two synthetic demos show an accepted report and a failed review report that prevents completion before the demo explicitly records a blocked transition. Coding agents and CI supply the actual execution; model calls, execution of project tests, PR creation and automatic merging are outside this public reference core.
+
+[See its implemented scope and trust boundary](https://github.com/JonasR-Git/agentic-build-kit#what-the-cli-does) · [Run the command-by-command example](https://github.com/JonasR-Git/agentic-build-kit/blob/main/docs/WALKTHROUGH.md)
 
 ## Engineering case studies
 
@@ -32,7 +34,7 @@ I built a ticket-driven, multi-model development system for my own work, includi
 
 The system classifies tasks by difficulty and type, routes work to suitable models and escalates difficult engineering decisions to a council of four independent models from different providers. It covers implementation, generated tests, PR creation and automatic merging after passing tests, CI, TypeScript checks and independent model reviews with no outstanding findings.
 
-I currently operate this workflow myself. Web ticket intake is available; Sentry and email intake integrations are in development. These ticket counts describe my development history, rather than a controlled benchmark or adoption by other developers.
+I currently operate this workflow myself. Web ticket intake is available; Sentry and email intake integrations are in development. The 350+ ticket count belongs to this separate personal workflow; it is not a usage metric for the public Task & Evidence CLI or the Hive OS delivery pilot, and it is not a controlled benchmark.
 
 ## Engineering stack
 
