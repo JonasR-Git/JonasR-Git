@@ -8,6 +8,17 @@ I build software from the first user problem through architecture, implementatio
 
 An experimental local workbench for turning an existing website into an editable migration blueprint, page and component specifications, and AI-generated design directions. Built with Next.js, TypeScript, Puppeteer and OpenRouter, with locally persisted sessions. Plans and mockups remain drafts for human review.
 
+[Explore the interactive project guide](https://jonasr-git.github.io/web-architect-ai/) · [Architecture](https://github.com/JonasR-Git/web-architect-ai/blob/master/docs/ARCHITECTURE.md) · [Reproduce the sample workflow](https://github.com/JonasR-Git/web-architect-ai/blob/master/docs/WORKFLOW_EXAMPLE.md)
+
+## [Agentic Build Kit](https://github.com/JonasR-Git/agentic-build-kit)
+
+A small, provider-neutral control plane for task-driven software delivery: dependency-aware task selection, specification readiness, structured completion evidence and a replayable state journal. The MIT-licensed reference core includes 16 regression tests and two reproducible scenarios showing a completed task and a task blocked by review. It validates delivery records; a coding agent or trusted CI integration supplies the actual implementation and evidence.
+
+## Engineering case studies
+
+- [Hive OS delivery pilot](case-studies/hive-os-delivery-pilot.md): one verified change from implementation through tests, PR, CI, merge, release and a deployed health check. The pilot connects code delivery with observable deployment evidence.
+- [IlluviHub platform migration](case-studies/illuvihub-platform-migration.md): frontend and migration work across Next.js, WordPress/GraphQL, internationalisation and operational tooling; approximately 80% lower hosting costs reported for the broader migration.
+
 ## Products I build and operate
 
 | Product | What I own | Current stage |
